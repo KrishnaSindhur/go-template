@@ -1,0 +1,33 @@
+# IDE &editors
+.idea/
+*.iml
+*~
+*.swp
+*.swo
+
+# Binaries for porograms and plugins
+*.exe
+*.exe~
+*.dll
+*.so 
+*.dylib 
+
+# Test binary, build with `go test -c`
+*.test 
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out 
+coverage.html
+coverage.json
+coverage.xml
+report.xml
+coverage
+gosec.csv
+gosec.html
+gosec.json
+go-template.log
+
+.DS_store 
+.DS_store?
+error.log
+.garden/
