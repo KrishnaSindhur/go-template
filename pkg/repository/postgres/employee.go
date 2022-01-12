@@ -6,7 +6,7 @@ import (
 	"github.com/KrishnaSindhur/go-template/pkg/contract"
 )
 
-type Repositroy interface {
+type EmployeeRepositroy interface {
 	List(ctx context.Context, location string) ([]contract.Employee, error)
 	Get(ctx context.Context, empID string) (contract.Employee, error)
 	Create(ctx context.Context, emp contract.CreateEmployee) (contract.Employee, error)
